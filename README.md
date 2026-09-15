@@ -324,42 +324,6 @@ SIH-2026/
 └── README.md
 ```
 
----
-
-## Screenshots
-
-### Home
-
-<p align="center">
-  <img src="./assets/screenshots/home.png" width="50%" alt="Home screen">
-</p>
-
-### Health Assessment
-
-<p align="center">
-  <img src="./assets/screenshots/assessment.png" width="50%" alt="Health assessment screen">
-</p>
-
-### Medical Document Upload
-
-<p align="center">
-  <img src="./assets/screenshots/document-upload.png" width="50%" alt="Medical document upload">
-</p>
-
-### Clinical Summary
-
-<p align="center">
-  <img src="./assets/screenshots/clinical-summary.png" width="50%" alt="Clinical summary">
-</p>
-
-### Physician Review
-
-<p align="center">
-  <img src="./assets/screenshots/physician-review.png" width="50%" alt="Physician review">
-</p>
-
----
-
 ## Screenshots
 
 <table>
