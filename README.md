@@ -237,7 +237,7 @@ flowchart TD
 ## Example Clinical Output
 
 <p align="center">
-  <img src="./assets/screenshots/clinical-summary.png" width="82%" alt="Clinical Summary">
+  <img src="./assets/screenshots/clinical-summary.png" width="50%" alt="Clinical Summary">
 </p>
 
 ```text
@@ -331,31 +331,31 @@ SIH-2026/
 ### Home
 
 <p align="center">
-  <img src="./assets/screenshots/home.png" width="90%" alt="Home screen">
+  <img src="./assets/screenshots/home.png" width="50%" alt="Home screen">
 </p>
 
 ### Health Assessment
 
 <p align="center">
-  <img src="./assets/screenshots/assessment.png" width="90%" alt="Health assessment screen">
+  <img src="./assets/screenshots/assessment.png" width="50%" alt="Health assessment screen">
 </p>
 
 ### Medical Document Upload
 
 <p align="center">
-  <img src="./assets/screenshots/document-upload.png" width="90%" alt="Medical document upload">
+  <img src="./assets/screenshots/document-upload.png" width="50%" alt="Medical document upload">
 </p>
 
 ### Clinical Summary
 
 <p align="center">
-  <img src="./assets/screenshots/clinical-summary.png" width="90%" alt="Clinical summary">
+  <img src="./assets/screenshots/clinical-summary.png" width="50%" alt="Clinical summary">
 </p>
 
 ### Physician Review
 
 <p align="center">
-  <img src="./assets/screenshots/physician-review.png" width="90%" alt="Physician review">
+  <img src="./assets/screenshots/physician-review.png" width="50%" alt="Physician review">
 </p>
 
 ---
