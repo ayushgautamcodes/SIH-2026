@@ -6,11 +6,11 @@
 
 <br>
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-0f766e?style=for-the-badge\&logo=github\&logoColor=white)](https://ayushgautamcodes.github.io/SIH-2026/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-0f766e?style=for-the-badge&logo=github&logoColor=white)](https://ayushgautamcodes.github.io/SIH-2026/)
 [![Smart India Hackathon](https://img.shields.io/badge/Smart%20India%20Hackathon-2026-ff6b35?style=for-the-badge)](https://www.sih.gov.in/)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 </p>
 
@@ -20,6 +20,13 @@
   <img src="https://img.shields.io/badge/Accessibility-Enabled-0d9488?style=flat-square">
   <img src="https://img.shields.io/badge/Frontend-Prototype-64748b?style=flat-square">
 </p>
+
+| | |
+|---|---|
+| **Problem Statement ID** | *<fill in>* |
+| **Problem Statement Title** | *<fill in>* |
+| **Team Name** | *<fill in>* |
+| **Theme** | *<fill in>* |
 
 ---
 ## Table of Contents
@@ -38,19 +45,6 @@
 - [Production Roadmap](#production-roadmap)
 - [Live Demo](#live-demo)
 - [License](#license)
----
-# RoG-उपाttam — Clinical History Assistant
-**A patient-friendly clinical history assistant...**
-[badges row 1]
-[badges row 2]
-
-| | |
-|---|---|
-| **Problem Statement ID** | *<fill in>* |
-| **Problem Statement Title** | *<fill in>* |
-| **Team Name** | *<fill in>* |
-| **Theme** | *<fill in>* |
-
 ---
 
 ## Preview
@@ -72,33 +66,33 @@ RoG-उपाttam helps patients prepare a structured health history before meet
 Instead of asking patients to remember and explain everything manually, the application guides them through concern-specific questions, accepts voice/touch/text input, allows previous medical documents to be added, performs transparent safety screening, and produces a structured clinical summary for physician review.
 
 ---
-## Getting Started
 
-[#getting-started](#getting-started)
+## Getting Started
 
 No build step or dependencies — it's plain HTML/CSS/JS.
 
-\`\`\`bash
+```bash
 git clone https://github.com/ayushgautamcodes/SIH-2026.git
 cd SIH-2026
-\`\`\`
+```
 
 Then either:
 - Open `index.html` directly in a browser, **or**
 - Serve it locally (required if you want to test voice input, since some browsers block microphone access on the `file://` origin):
 
-\`\`\`bash
+```bash
 # Python
 python -m http.server 8000
 
 # or Node
 npx serve .
-\`\`\`
+```
 
 Visit `http://localhost:8000`.
 
 ### Browser support
 Voice input uses the Web Speech API (`SpeechRecognition`), which is currently only supported in **Chrome and Edge**. The rest of the app (text/touch input, accessibility options, document upload) works in any modern browser.
+
 ---
 
 ## Core Workflow
@@ -480,8 +474,6 @@ A qualified healthcare professional remains responsible for diagnosis and treatm
 <p align="center">
 
 ## License
-
-[#license](#license)
 
 This project is submitted for Smart India Hackathon 2026 and is currently unlicensed for external use. *(Replace with an MIT/Apache-2.0 license once you decide on one.)*
 
