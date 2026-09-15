@@ -26,7 +26,7 @@
 ## Preview
 
 <p align="center">
-  <img src="./assets/screenshots/home.png" width="85%" alt="RoG-Upattam Home Screen">
+  <img src="./assets/screenshots/home.png" width="60%" alt="RoG-Upattam Home Screen">
 </p>
 
 <p align="center">
