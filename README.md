@@ -360,6 +360,43 @@ SIH-2026/
 
 ---
 
+## Screenshots
+
+<table>
+<tr>
+<td align="center">
+<strong>Home</strong><br><br>
+<img src="./assets/screenshots/home.png" width="65%" alt="Home screen">
+</td>
+
+<td align="center">
+<strong>Health Assessment</strong><br><br>
+<img src="./assets/screenshots/assessment.png" width="65%" alt="Health assessment screen">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<strong>Medical Document Upload</strong><br><br>
+<img src="./assets/screenshots/document-upload.png" width="65%" alt="Medical document upload">
+</td>
+
+<td align="center">
+<strong>Clinical Summary</strong><br><br>
+<img src="./assets/screenshots/clinical-summary.png" width="65%" alt="Clinical summary">
+</td>
+</tr>
+
+<tr>
+<td align="center" colspan="2">
+<strong>Physician Review</strong><br><br>
+<img src="./assets/screenshots/physician-review.png" width="50%" alt="Physician review">
+</td>
+</tr>
+</table>
+
+---
+
 ## Production Roadmap
 
 ```mermaid
