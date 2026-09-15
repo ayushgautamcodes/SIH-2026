@@ -22,6 +22,36 @@
 </p>
 
 ---
+## Table of Contents
+
+- [What is RoG-उपाttam?](#what-is-rog-उपाttam)
+- [Getting Started](#getting-started)
+- [Core Workflow](#core-workflow)
+- [System Architecture](#system-architecture)
+- [Feature Map](#feature-map)
+- [Patient Journey](#patient-journey)
+- [Clinical Safety Flow](#clinical-safety-flow)
+- [Example Clinical Output](#example-clinical-output)
+- [Technology](#technology)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [Production Roadmap](#production-roadmap)
+- [Live Demo](#live-demo)
+- [License](#license)
+---
+# RoG-उपाttam — Clinical History Assistant
+**A patient-friendly clinical history assistant...**
+[badges row 1]
+[badges row 2]
+
+| | |
+|---|---|
+| **Problem Statement ID** | *<fill in>* |
+| **Problem Statement Title** | *<fill in>* |
+| **Team Name** | *<fill in>* |
+| **Theme** | *<fill in>* |
+
+---
 
 ## Preview
 
@@ -41,6 +71,34 @@ RoG-उपाttam helps patients prepare a structured health history before meet
 
 Instead of asking patients to remember and explain everything manually, the application guides them through concern-specific questions, accepts voice/touch/text input, allows previous medical documents to be added, performs transparent safety screening, and produces a structured clinical summary for physician review.
 
+---
+## Getting Started
+
+[#getting-started](#getting-started)
+
+No build step or dependencies — it's plain HTML/CSS/JS.
+
+\`\`\`bash
+git clone https://github.com/ayushgautamcodes/SIH-2026.git
+cd SIH-2026
+\`\`\`
+
+Then either:
+- Open `index.html` directly in a browser, **or**
+- Serve it locally (required if you want to test voice input, since some browsers block microphone access on the `file://` origin):
+
+\`\`\`bash
+# Python
+python -m http.server 8000
+
+# or Node
+npx serve .
+\`\`\`
+
+Visit `http://localhost:8000`.
+
+### Browser support
+Voice input uses the Web Speech API (`SpeechRecognition`), which is currently only supported in **Chrome and Edge**. The rest of the app (text/touch input, accessibility options, document upload) works in any modern browser.
 ---
 
 ## Core Workflow
@@ -124,7 +182,7 @@ flowchart TB
     ALERT --> REVIEW
 ```
 
-## The current implementation uses in-memory state and a frontend-only architecture; backend services, OCR/AI processing, and production health-record integration are future components.
+> **Note:** The current implementation uses in-memory state and a frontend-only architecture. Backend services, OCR/AI processing, and production health-record integration are future components.
 
 ## Feature Map
 
@@ -302,7 +360,7 @@ graph LR
 | Language      | English + Hindi            |
 | State         | In-memory JavaScript state |
 
-## The base HTML loads `style.css` and `script.js`, while the JavaScript implementation contains the application state, translations, question bank, voice interface, document upload, safety rules and summary generation.
+> The base HTML loads `style.css` and `script.js`. The JavaScript file contains the application state, translations, question bank, voice interface, document upload logic, safety rules, and summary generation.
 
 ## Project Structure
 
@@ -420,6 +478,12 @@ A qualified healthcare professional remains responsible for diagnosis and treatm
 ---
 
 <p align="center">
+
+## License
+
+[#license](#license)
+
+This project is submitted for Smart India Hackathon 2026 and is currently unlicensed for external use. *(Replace with an MIT/Apache-2.0 license once you decide on one.)*
 
 **Built for Smart India Hackathon 2026**
 
